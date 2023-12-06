@@ -23,7 +23,7 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 Here we provide a example to predict the lncRNA-disease association scores under 5-cv1 setting on dataset 1:
 
 1. Download and upzip our data and code files
-2. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, validation_type-- 5-cv1, task_type--LDA, feature_type-- normal)
+2. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, task_type--LDA, feature_type-- normal)
 
 ## 4. Contacts
 If you have any questions, please email Nan Sheng (shengnan21@mails.jlu.edu.cn)
