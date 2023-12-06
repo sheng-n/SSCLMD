@@ -20,7 +20,7 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 * torch-geometric == 2.3.0
 
 ## 3. Quick Start
-Here we provide a example to predict the lncRNA-disease association scores under 5-cv1 setting on dataset 1:
+Here we provide a example to predict the lncRNA-disease association scores on dataset 1:
 
 1. Download and upzip our data and code files
 2. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, task_type--LDA, feature_type-- normal)
