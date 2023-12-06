@@ -9,9 +9,9 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 + `code/utils.py` contains preprocessing function of the data;
 + `code/data_preprocess.py` contains the preprocess of data;
 + `code/layer.py` contains contrastive self-supervised GCN layers;
-+ `code/instantiation.py` contains CSGLMD model instatiation;
++ `code/instantiation.py` contains SSCLMD model instatiation;
 + `code/train.py` contains training and testing code;
-+ `code/main.py` runs CSGLMD;
++ `code/main.py` runs SSCLMD;
 
 ## 2. Dependencies
 * numpy == 1.21.1
