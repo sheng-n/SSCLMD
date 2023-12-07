@@ -4,6 +4,7 @@
 The code for paper Self-supervised contrastive learning on attribute and topology graphs for predicting relationships among lncRNAs, miRNAs and diseases". The repository is organized as follows:
 
 + `data/` contains the dataset 1 and dataset 2 used in the paper;
++ `code/data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
 + `code/calculating_similarity.py` is the calculation and integration of lncRNA/miRNA/disease similarities;
 + `code/parms_setting.py`contains hyperparmeters;
 + `code/utils.py` contains preprocessing function of the data;
