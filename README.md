@@ -5,7 +5,7 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 
 + `data/` contains the dataset 1 and dataset 2 used in the paper;
 + `code/data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
-+ `code/calculating_similarity.py` is the calculation and integration of lncRNA/miRNA/disease similarities;
++ `code/calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
 + `code/parms_setting.py`contains hyperparmeters;
 + `code/utils.py` contains preprocessing function of the data;
 + `code/data_preprocess.py` contains the preprocess of data;
