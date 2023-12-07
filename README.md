@@ -9,8 +9,7 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 + `code/parms_setting.py`contains hyperparmeters;
 + `code/utils.py` contains preprocessing function of the data;
 + `code/data_preprocess.py` contains the preprocess of data;
-+ `code/layer.py` contains contrastive self-supervised GCN layers;
-+ `code/instantiation.py` contains SSCLMD model instatiation;
++ `code/layer.py` contains SSCLMD's model layer;
 + `code/train.py` contains training and testing code;
 + `code/main.py` runs SSCLMD;
 
@@ -24,7 +23,8 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
 Here we provide a example to predict the lncRNA-disease association scores on dataset 1:
 
 1. Download and upzip our data and code files
-2. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, task_type--LDA, feature_type-- normal)
+2. Run data_preparation.py and calculating_similarity.py to obtain lncRNA/miRNA/disease attribute graph and intra_edge of topology graph 
+3. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, task_type--LDAl)
 
 ## 4. Contacts
 If you have any questions, please email Nan Sheng (shengnan21@mails.jlu.edu.cn)
