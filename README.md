@@ -1,5 +1,5 @@
 # SSCLMD
-
+Submit journal IEEE Journal of Biomedical and Health Informatics
 ## 1. Overview
 The code for paper Self-supervised contrastive learning on attribute and topology graphs for predicting relationships among lncRNAs, miRNAs and diseases". The repository is organized as follows:
 
