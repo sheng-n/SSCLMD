@@ -7,8 +7,8 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
   * pretrain_Augmentor() -- Pretrain Graph Augmentation Module - GraphAug
   * pretrain_Classifier() -- Pretrain GNN Classifier
   * main() -- Train the model for node classification task on eight real-world datasets
-+ `code
-  * data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
++ code
+  * `data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
 + `code/calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
 + `code/parms_setting.py`contains hyperparmeters;
 + `code/utils.py` contains preprocessing function of the data;
