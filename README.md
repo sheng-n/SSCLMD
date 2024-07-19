@@ -4,11 +4,11 @@ Submit journal IEEE Journal of Biomedical and Health Informatics
 The code for paper Self-supervised contrastive learning on attribute and topology graphs for predicting relationships among lncRNAs, miRNAs and diseases". The repository is organized as follows:
 
 + `data/` contains the dataset 1 and dataset 2 used in the paper, with dataset 1 as an example;
-  * `lnc(mi)_dis_association_new2.txt` and `lnc_mi_interaction_new2.txt` contain known lncRNA(miRNA)-disease associations and lncRNA-miRNA interactions;
-  * `LDA/MDA/LMI.edgelist` contains known LDA/MDA/LMI pairs; `no_LDA/MDA/LMI.edgelist` contain unknown LDA/MDA/LMI pairs;
-  * `lncRNA/miRNA_sequences2.xlsx` contains lncRNA/miRNA sequences, lncRNA sequences from NCBI, miRNA sequences from miRBase;
-  * `disease_name.xlsx` contains disease name and DOID number;
-  * `dis_sem_sim.txt` is disease semantic similarity:
+  * `lnc(mi)_dis_association_new2.txt` and `lnc_mi_interaction_new2.txt` contain known lncRNA(miRNA)-disease associations and lncRNA-miRNA interactions, respectively;
+  * `LDA/MDA/LMI.edgelist` contain known LDA, MDA, and LMI pairs, respectively; `no_LDA/MDA/LMI.edgelist` contain unknown LDA, MDA, LMI pairs;
+  * `lncRNA/miRNA_sequences2.xlsx` contain lncRNA and miRNA sequences, lncRNA sequences are from NCBI, miRNA sequences are from miRBase;
+  * `disease_name.xlsx` contains disease names and their DOID numbers;
+  * `dis_sem_sim.txt` contains disease semantic similarity data:
 + `code/`
   * `data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
   * `calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
