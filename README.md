@@ -3,8 +3,8 @@ Submit journal IEEE Journal of Biomedical and Health Informatics
 ## 1. Overview
 The code for paper Self-supervised contrastive learning on attribute and topology graphs for predicting relationships among lncRNAs, miRNAs and diseases". The repository is organized as follows:
 
-+ `data/` contains the dataset 1 and dataset 2 used in the paper, take dataset 1 as an example;
-  * `lnc(mi)_dis_association_new2.txt/lnc_mi_interaction_new2.txt` contain known lncRNA(miRNA)-disease associations and lncRNA-miRNA interactions;
++ `data/` contains the dataset 1 and dataset 2 used in the paper, with dataset 1 as an example;
+  * `lnc(mi)_dis_association_new2.txt` and `lnc_mi_interaction_new2.txt` contain known lncRNA(miRNA)-disease associations and lncRNA-miRNA interactions;
   * `LDA/MDA/LMI.edgelist` contains known LDA/MDA/LMI pairs; `no_LDA/MDA/LMI.edgelist` contain unknown LDA/MDA/LMI pairs;
   * `lncRNA/miRNA_sequences2.xlsx` contains lncRNA/miRNA sequences, lncRNA sequences from NCBI, miRNA sequences from miRBase;
   * `disease_name.xlsx` contains disease name and DOID number;
