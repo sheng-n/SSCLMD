@@ -3,10 +3,12 @@ Submit journal IEEE Journal of Biomedical and Health Informatics
 ## 1. Overview
 The code for paper Self-supervised contrastive learning on attribute and topology graphs for predicting relationships among lncRNAs, miRNAs and diseases". The repository is organized as follows:
 
-+ `data/` contains the dataset 1 and dataset 2 used in the paper;
-  * pretrain_Augmentor() -- Pretrain Graph Augmentation Module - GraphAug
-  * pretrain_Classifier() -- Pretrain GNN Classifier
-  * main() -- Train the model for node classification task on eight real-world datasets
++ `data/` contains the dataset 1 and dataset 2 used in the paper, take dataset 1 as an example;
+  * lnc(mi)_dis_association_new2.txt/lnc_mi_interaction_new2.txt contains known lncRNA(miRNA)-disease associations and lncRNA-miRNA interactions;
+  * LDA/MDA/LMI.edgelist contains known LDA/MDA/LMI pairs; no_LDA/MDA/LMI.edgelist contains unknown LDA/MDA/LMI pairs;
+  * lncRNA/miRNA_sequences2.xlsx contains lncRNA/miRNA sequences, lncRNA sequences from NCBI, miRNA sequences from miRBase;
+  * disease_name.xlsx contains disease name and DOID number;
+  * dis_sem_sim.txt is disease semantic similarity:
 + `code/`
   * `data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
   * `calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
