@@ -9,13 +9,13 @@ The code for paper Self-supervised contrastive learning on attribute and topolog
   * main() -- Train the model for node classification task on eight real-world datasets
 + `code/`
   * `data_preparation.py` is used to calculate lncRNA/miRNA k-mer features and construct knn graph (attribute graph) of lncRNA/miRNA/disease.
-  *`calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
-  *`parms_setting.py`contains hyperparmeters;
-  *`utils.py` contains preprocessing function of the data;
-  *`data_preprocess.py` contains the preprocess of data;
-  *`layer.py` contains SSCLMD's model layer;
-  *`train.py` contains training and testing code;
-  *`main.py` runs SSCLMD;
+  * `calculating_similarity.py` is used to calclulate lncRNA/miRNA/disease GIPK similarities and obtain the intra-edges in the topology graph;
+  * `parms_setting.py`contains hyperparmeters;
+  * `utils.py` contains preprocessing function of the data;
+  * `data_preprocess.py` contains the preprocess of data;
+  * `layer.py` contains SSCLMD's model layer;
+  * `train.py` contains training and testing code;
+  * `main.py` runs SSCLMD;
 
 ## 2. Dependencies
 * numpy == 1.21.1
