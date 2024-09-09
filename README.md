@@ -32,5 +32,8 @@ Here we provide a example to predict the lncRNA-disease association scores on da
 2. Run data_preparation.py and calculating_similarity.py to obtain lncRNA/miRNA/disease attribute graph and intra_edge of topology graph 
 3. Run main.py (in file-- dataset1/LDA.edgelist, neg_sample-- dataset1/non_LDA.edgelist, task_type--LDAl)
 
-## 4. Contacts
+## 4. Reminder
+It is recommended that you save the training and test sets for each fold and then calculate the lncRNA/miRNA/disease functional similarity. Then continue with subsequent calculations, which will speed up the calculation.
+
+## 5. Contacts
 If you have any questions, please email Nan Sheng (shengnan21@mails.jlu.edu.cn)
