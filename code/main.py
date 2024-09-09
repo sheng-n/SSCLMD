@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 from parms_setting import settings
-from data_preprocess2 import load_data
+from data_preprocess import load_data
 from train import train_model
 import os
 
