@@ -18,7 +18,7 @@ def settings():
     parser.add_argument('--in_file', default="dataset1/LDA.edgelist",        # read positive data
                         help='Path to data fold. e.g., data/LDA.edgelist')
 
-    parser.add_argument('--neg_sample', default="dataset2/no_LMI.edgelist",  # read negative data
+    parser.add_argument('--neg_sample', default="dataset1/no_LDA.edgelist",  # read negative data
                         help='Path to data fold. e.g., data/LDA.edgelist')
 
     parser.add_argument('--task_type', default="LDA", choices=['LDA', 'MDA','LMI'],  # task type
